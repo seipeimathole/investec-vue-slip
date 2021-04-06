@@ -1,0 +1,92 @@
+body {
+    overflow-x: hidden;
+}
+
+section .robot {
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+section .robot img {
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+    transition-property: margin-top;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+section .robot img:hover {
+    margin-top: -400px;
+}
+
+.navbar .navbar-brand i {
+    margin-right: 10px;
+}
+
+blockquote {
+    line-height: 30px;
+}
+
+button.random-search {
+	background-color: #161467;
+	border-color: #161467;
+	color: #fff;
+}
+
+.invinsible {
+    display: none;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .social li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 20px 15px 15px !important;
+  }
+
+  @media screen and (max-width: 767px) {
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    section .robot { 
+        margin: auto;
+     }
+    
+     .col-md-4.text-end {
+         text-align: center !important;
+     }
+
+     button.random-search {
+       margin:0 !important;
+     }
+
+     section .col-md-4 {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        /* margin-right: 14%; */
+        padding: 0;
+     }
+
+     footer {
+         text-align:center;
+     }
+
+     footer .col-md-4 {
+         margin-bottom: 20px;
+     }
+
+  }
+
+
+
